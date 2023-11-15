@@ -43,7 +43,7 @@ def draw_annotations(image_url, annotations):
     img.show()
 
     # Save the modified image
-    img.save('output_image.jpg')
+    img.save('draw_annotations_ouput.jpeg')
     
     return img
 
